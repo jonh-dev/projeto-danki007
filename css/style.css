@@ -1,0 +1,143 @@
+/* Configurações do Materialize */
+
+nav ul a,
+nav .brand-logo {
+  color: white;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #ffffff;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+/*****/
+
+/* Responsivo */
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+/*****/
+
+/*****/
+
+/* Configurações Pessoais */
+
+/* Main */
+
+/* Section 01 */
+
+section .sect1{
+  position: relative;
+  min-height: 400px;
+}
+
+section .form-container{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 15px 2%;
+  width: 100%;
+  max-width: 700px;
+}
+
+/*****/
+
+/* Section 02 */
+
+.card{
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.226);
+}
+
+.custom-title{
+  position: relative;
+}
+
+.custom-title h4{
+  padding-right: 10px;
+  font-size: 26px;
+  background-color: white;
+  display: inline-block;
+  z-index: 2;
+  position: relative;
+}
+
+.custom-title div{
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  top: 45px;
+  left: 0;
+  z-index: 1;
+  background-color: #777;
+}
+
+.msg{
+  margin-bottom: 14px;
+}
+
+.card-content p{
+  text-align: justify;
+}
+
+/*****/
+
+/* Section 03 */
+
+section.section03 .container{
+  width: 69%;
+}
+
+section.section03 .card.small{
+  max-height: 100%;
+  min-height: 410px;
+}
+
+section.section03 .card.small > .card-content{
+  max-height: 100%;
+}
+
+/*****/
+
+/*****/
+
+/*****/
